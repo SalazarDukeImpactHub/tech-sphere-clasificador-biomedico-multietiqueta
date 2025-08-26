@@ -36,30 +36,14 @@ Decisión: umbrales por clase afinados para maximizar F1 ponderado.
 
 Multietiqueta: puede activar varias áreas si el artículo es mixto.
 
-🗂️ Estructura del repositorio
-tech-sphere-clasificador-biomedico-multietiqueta/
-├─ data/                       # dataset (ej. challenge_data-18-ago.csv)*
-├─ models_final/               # artefactos de producción
-│  ├─ pipeline.joblib          # vectorizadores + clasificador
-│  └─ meta.json                # labels, thresholds, engine
-├─ notebooks/
-│  └─ intento1.ipynb           # cuaderno final organizado (entrenamiento/validación)
-├─ src/
-│  ├─ app.py                   # API REST (FastAPI)
-│  └─ streamlit_app.py         # demo local/Space
-├─ v0/                         # prompts y recursos de visualización (V0)
-├─ reports_env/                # environment.yml, requirements.txt, reportes de entorno
-├─ README.md
-└─ .gitignore
 
-Demo en vivo (Hugging Face Space): abre el formulario, pega título+abstract y visualiza etiquetas y barras de confianza.
+# Demo en vivo (Hugging Face Space):
+abre el formulario, pega título+abstract y visualiza etiquetas y barras de confianza.
 https://huggingface.co/spaces/jennifersalazarduke/clasificador-biomedicoTECH_SPHERE
 
-Storytelling del proyecto (Notion): relato amigable del reto, decisiones y resultados.
+# Storytelling del proyecto (Notion): 
+relato amigable del reto, decisiones y resultados.
 https://humorous-polyester-33a.notion.site/Challenge-de-Clasificaci-n-Biom-dica-con-IA-25a30d9b1a1180dba80de926852cc7fd?pvs=74
-
-Repositorio público (GitHub): código fuente, artefactos y documentación.
-https://github.com/SalazarDukeImpactHub/tech-sphere-clasificador-biomedico-multietiqueta
 
 🧪 Reproducir localmente (entorno biomed-ml)
 
