@@ -1,4 +1,5 @@
-# Clasificador Biomédico Multietiqueta (Cardio / Neuro / Hepatorrenal / Onco)
+# Clasificación Multietiqueta de Artículos Biomédicos: Un Enfoque con TF-IDF y Regresión Logística.
+
 
 Demo (Hugging Face): https://huggingface.co/spaces/jennifersalazarduke/clasificador-biomedicoTECH_SPHERE
 
