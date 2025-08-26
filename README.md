@@ -67,7 +67,7 @@ Entrenamiento y validación
 Abre notebooks/intento1.ipynb, selecciona el kernel Python (biomed-ml) y ejecuta.
 Al finalizar, se generan models_final/pipeline.joblib y models_final/meta.json.
 
-##🔌 API REST (FastAPI)
+# 🔌API REST (FastAPI)
 
 Arranca la API que sirve las predicciones (JSON):
 
@@ -127,7 +127,8 @@ Textos muy cortos pueden ser ambiguos.
 
 Para mayor recall en clases minoritarias, considerar BioBERT/ClinicalBERT (pipeline alterno).
 
-👩‍💻 Autoría
+
+# 👩‍💻 Autoría
 
 Jennifer Salazar Duke — Salazar Duke Impact Hub
 
