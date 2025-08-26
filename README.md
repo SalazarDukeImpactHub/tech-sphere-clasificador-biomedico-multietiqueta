@@ -50,25 +50,24 @@ https://humorous-polyester-33a.notion.site/Challenge-de-Clasificaci-n-Biom-dica-
 
 Recomendado: Python 3.10. Estos pasos fueron probados en Anaconda Prompt (Windows).
 
-# 1) Crear/activar entorno
+### 1) Crear/activar entorno
 conda create -n biomed-ml python=3.10 -y
 conda activate biomed-ml
 python -m pip install --upgrade pip
 
-# 2) Instalar dependencias
+#### 2) Instalar dependencias
 python -m pip install -r requirements.txt
-# (si no existe, instalar mínimas)
-# python -m pip install scikit-learn==1.7.1 numpy pandas joblib fastapi uvicorn streamlit
+(si no existe, instalar mínimas)
+python -m pip install scikit-learn==1.7.1 numpy pandas joblib fastapi uvicorn streamlit
 
-# 3) Verificar versiones clave (opcional)
+### 3) Verificar versiones clave (opcional)
 python -c "import sklearn,streamlit,sys; print('sklearn', sklearn.__version__, '| streamlit', streamlit.__version__, '| py', sys.version)"
-
 
 Entrenamiento y validación
 Abre notebooks/intento1.ipynb, selecciona el kernel Python (biomed-ml) y ejecuta.
 Al finalizar, se generan models_final/pipeline.joblib y models_final/meta.json.
 
-🔌 API REST (FastAPI)
+##🔌 API REST (FastAPI)
 
 Arranca la API que sirve las predicciones (JSON):
 
@@ -85,10 +84,9 @@ POST /predict → body:
 
 { "title": "string", "abstract": "string", "top_k": 0, "fallback": true }
 
-
 Modo umbrales (top_k=0) o Top-K (top_k>0).
 
-▶️ Demo web (Streamlit)
+## ▶️ Demo web (Streamlit)
 
 Ejecuta localmente la demo (la misma que se usa en el Space):
 
