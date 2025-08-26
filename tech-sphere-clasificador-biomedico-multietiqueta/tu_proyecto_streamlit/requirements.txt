@@ -1,0 +1,5 @@
+gradio==4.36.1  # Versión más reciente en PyPI al momento de esta respuesta, asumo que quieres la última compatible para Gradio.
+scikit-learn==1.7.1
+numpy==2.2.6
+pandas==2.3.2
+joblib==1.5.1

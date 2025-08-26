@@ -1,0 +1,5 @@
+label,tn,fp,fn,tp
+Cardiovascular,454,6,37,217
+Neurological,316,41,36,321
+Hepatorenal,491,5,42,176
+Oncological,589,5,23,97

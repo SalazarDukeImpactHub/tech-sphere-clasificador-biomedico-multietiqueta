@@ -1,0 +1,14 @@
+{
+  "labels": [
+    "Cardiovascular",
+    "Neurological",
+    "Hepatorenal",
+    "Oncological"
+  ],
+  "thresholds": [
+    0.42500000000000004,
+    0.5750000000000001,
+    0.4750000000000001,
+    0.5
+  ]
+}
